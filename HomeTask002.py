@@ -18,7 +18,7 @@ for i in range(1001):
         if s_number == i + j and p_number == i*j:
             count = 1
             print(f'Задуманные числа {i} и {j}')
-            # break
+            break
 else:
     print('Петя ошибся с подсказкой')
 
