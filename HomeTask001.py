@@ -6,4 +6,17 @@
 # 5 -> 1 0 1 1 0
 # 2
 
-print(10)
+from random import randint
+count_coin = int(input('Введите количество монет: '))
+side = 0
+print('на столе лежат монеты: ')
+for i in range(count_coin):
+    coin = randint(0, 1)
+    print (coin,end=' ')
+    if coin == 1:
+        side += 1
+if side<count_coin/2:
+    print (f'\nНужно перевернуть {side} монет')
+else:
+    side = count_coin - side
+    print (f'\nНужно перевернуть {side} монет')

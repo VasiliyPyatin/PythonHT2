@@ -16,6 +16,6 @@ while i <= n and number * 2 <= n:
 # m=1
 
 # while m <= n:
-#     print(i)
+#     print(m)
 #     m = m * 2
     
